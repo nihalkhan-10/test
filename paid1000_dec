@@ -157,7 +157,6 @@ def login_fb():
         print ''
         print '\t    \x1b[1;31mUser must verify account before login\x1b[0;97m'
         time.sleep(1)
-        print ''
         raw_input('\tPress enter to back ')
         login_choice()
     else:
