@@ -179,5 +179,3 @@ def menu_option():
     select = raw_input('\x1b[1;92m\xe2\x80\xa2\xe2\x89\xab\x1b[0;97m ')
     if select == '1':
         crack()
-
-if __name__ == '__main__'
