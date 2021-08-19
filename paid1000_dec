@@ -51,11 +51,9 @@ def reg():
             print '\x1b[1;92m \xe2\x9c\x93 \x1b[1;95m All Set'
             time.sleep(1)
             login_choice()
-        else:
             print '[!] Tool-ip : ' + ss + ' (Wrong)'
             time.sleep(1)
             g()
-    else:
         print '[!] Tool-ip : ' + ip + ' (Wrong)'
         time.sleep(1)
         g()
