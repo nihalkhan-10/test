@@ -5,12 +5,6 @@
 # Embedded file name: <www.youtube.com/c/pythonlife
 import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib, cookielib, requests, uuid, string
 from multiprocessing.pool import ThreadPool
-except OSError:
-    pass
-
-try:
-    os.mkdir('/sdcard/ids/ex_ids')
-except OSError:
     pass
 
 os.system('git pull')
