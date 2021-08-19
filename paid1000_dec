@@ -38,48 +38,7 @@ idh = []
 back = 0
 
 def reg():
-    os.system('clear')
-    logo()
-    print ''
-    os.system('echo -e "\n\n\xe2\x8b\x9f The Approval For Login" | lolcat')
-    os.system('echo -e "\n\n\xe2\x8b\x9f Buy This Tool And Enjoy " | lolcat')
-    os.system('echo -e "\n\n\xe2\x8b\x9f Checking approval...." | lolcat')
-    time.sleep(1)
-        os.system('echo -e "\n\n\xe2\x8b\x9f  Your key is Not Approved" | lolcat')
-        os.system('echo -e "\n\n\xe2\x8b\x9f  Copy The id and send to Tool owner" | lolcat')
-        os.system('echo -e "\n\n\xe2\x8b\x9f The Approval For Login" | lolcat')
-        print '\x1b[0;31m\xe2\x8b\x9f \x1b[1;92mYour id: \x1b[0;36m' + to
-        raw_input('\x1b[0;31m\xe2\x8b\x9f\x1b[1;93m Press enter to send id')
-        os.system('xdg-open https://wa.me/+923132197796')
-        reg()
-
-
-def reg2():
-    os.system('clear')
-    logo()
-    os.system('echo -e "\n\n\xe2\x8b\x9f Approval not detected" | lolcat')
-    os.system('echo -e "\n\n\xe2\x8b\x9f Copy Your Key and Press Enter" | lolcat')
-    os.system('echo -e "\n\n\xe2\x8b\x9f Select Whatsaap To Countinue" | lolcat')
-    id = uuid.uuid4().hex[:50]
-    print ' Your id: ' + id
-    raw_input(' Press enter to go to whatsapp ')
-    os.system('xdg-open https://wa.me/+923132197796')
-    sav = open('/sdcard/.kawjjtgbswqlbbfvmoodfvzshbbbffhhjuujjjjhjjjjqbbwjjjrrrttunddbsdbdfsaakkkvffteu3beb.txt', 'w')
-    sav.write(id)
-    sav.close()
-    raw_input('\x1b[1;92m Press enter to check Approval ')
-    reg()
-
-
-def g():
-    os.system('clear')
-    logo()
-    print '\x1b[1;91mTool Verification'
-    print
-    ip = raw_input('\x1b[1;97m(\x1b[1;91m+\x1b[1;97m) Your-ip :  ')
-    if ip == 'a':
-        os.system('clear')
-        logo()
+    
         print '\x1b[1;97m(\x1b[1;93m\xe2\x9c\x93\x1b[1;97m) Your-ip : (Confirmed)'
         ss = raw_input('\x1b[1;97m(\x1b[1;91m+\x1b[1;97m) Tool-ip : ')
         if ss == 'a':
@@ -115,8 +74,6 @@ def login_choice():
         logo1()
         print ''
         login_select()
-
-
 def login_select():
     select = raw_input('\x1b[1;92m\xe2\x80\xa2\xe2\x89\xab \x1b[0;97m')
     if select == '2':
