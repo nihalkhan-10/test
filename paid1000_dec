@@ -5,8 +5,6 @@
 # Embedded file name: <www.youtube.com/c/pythonlife
 import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib, cookielib, requests, uuid, string
 from multiprocessing.pool import ThreadPool
-    pass
-
 os.system('git pull')
 from requests.exceptions import ConnectionError
 bd = random.randint(20000000.0, 30000000.0)
