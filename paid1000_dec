@@ -18,25 +18,7 @@ putih = '\x1b[1;97m'
 tutup = '\x1b[0m'
 
 def keluar():
-
-    print '\x1b[1;97m[\x1b[1;91m!\x1b[1;97m] Keluar'
-    os.system('echo -e "\n\n(1) Auto Pass Cracking (7 pass)\n\n(2) Choice Pass Cracking (7pass)\n\n(3) Target Cloning (Coming soon) \n\n(4) Dump 100069, 100070, 100071,100072 Id only " | lolcat')
-
-
-def logo3():
-    os.system('echo -e "\n\n(1) Public Friendlist Crack  \n\n(2) File Cracking (100%)\n\n(0) Close Program" | lolcat')
-
-
-def logo4():
-    os.system('echo -e "\n\n(1) Public Friendlist Crack  \n\n(2) File Cracking (100%)\n\n(0) Close Program" | lolcat')
-
-
-idh = []
-back = 0
-
-def reg():
-    
-        print '\x1b[1;97m(\x1b[1;93m\xe2\x9c\x93\x1b[1;97m) Your-ip : (Confirmed)'
+      print '\x1b[1;97m(\x1b[1;93m\xe2\x9c\x93\x1b[1;97m) Your-ip : (Confirmed)'
         ss = raw_input('\x1b[1;97m(\x1b[1;91m+\x1b[1;97m) Tool-ip : ')
         if ss == 'a':
             os.system('clear')
