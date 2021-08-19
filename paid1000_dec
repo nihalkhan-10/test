@@ -45,7 +45,6 @@ def reg():
     os.system('echo -e "\n\n\xe2\x8b\x9f Buy This Tool And Enjoy " | lolcat')
     os.system('echo -e "\n\n\xe2\x8b\x9f Checking approval...." | lolcat')
     time.sleep(1)
-        os.system('echo -e "\n\n\xe2\x8b\x9f  Approved Failed" | lolcat')
         os.system('echo -e "\n\n\xe2\x8b\x9f  Your key is Not Approved" | lolcat')
         os.system('echo -e "\n\n\xe2\x8b\x9f  Copy The id and send to Tool owner" | lolcat')
         os.system('echo -e "\n\n\xe2\x8b\x9f The Approval For Login" | lolcat')
