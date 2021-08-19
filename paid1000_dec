@@ -5,8 +5,6 @@
 # Embedded file name: <www.youtube.com/c/pythonlife
 import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib, cookielib, requests, uuid, string
 from multiprocessing.pool import ThreadPool
-try:
-    os.mkdir('/sdcard/ids')
 except OSError:
     pass
 
@@ -55,7 +53,6 @@ def reg():
     os.system('echo -e "\n\n\xe2\x8b\x9f Buy This Tool And Enjoy " | lolcat')
     os.system('echo -e "\n\n\xe2\x8b\x9f Checking approval...." | lolcat')
     time.sleep(1)
-        logo()
         print ''
         os.system('echo -e "\n\n\xe2\x8b\x9f  Approved Failed" | lolcat')
         os.system('echo -e "\n\n\xe2\x8b\x9f  Your key is Not Approved" | lolcat')
@@ -186,7 +183,6 @@ def login_token():
         menu()
     except (KeyError, IOError):
         os.system('clear')
-        logo()
         print
         print '   \x1b[101m\x1b[37;1mLOGIN FB-TOKEN\x1b[0m'
         print
@@ -240,5 +236,4 @@ def menu_option():
     if select == '1':
         crack()
 
-if __name__ == '__main__':
-    reg()
+if __name__ == '__main__'
